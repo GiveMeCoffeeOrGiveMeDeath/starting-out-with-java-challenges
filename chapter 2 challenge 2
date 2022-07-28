@@ -1,0 +1,22 @@
+/*
+chapter 2 challenge 2
+*/
+
+public class Main
+{
+    public static void main(String[] args) {
+        
+        
+        String firstName = "David";
+        String lastName = "Acosta";
+        String middleName = "Alejandro";
+        
+        char firstInitial = 'D';
+        char middleInitial = 'A';
+        char lastInitial = 'A';
+        
+        
+        System.out.print(firstName + " " + middleName + " " + lastName + " " + firstInitial + middleInitial + lastInitial);
+        
+    }
+}
