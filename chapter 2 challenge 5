@@ -1,5 +1,6 @@
 /*
 chapter 2 challenge 5
+The challenge doesnt require formatting numbers after every third number
 */
  import java.text.DecimalFormat;
  
