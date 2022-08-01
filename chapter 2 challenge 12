@@ -23,5 +23,8 @@ public class Main
        System.out.print(favoriteCity.toLowerCase() + "\n");
        System.out.print(favoriteCity.charAt(0));
        
+       //extra getting the lact character on the string
+       System.out.print(favoriteCity.charAt(favoriteCity.length()-1));
+       
     }
 }
