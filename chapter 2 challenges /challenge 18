@@ -2,6 +2,8 @@
 Chanllenge 18
 */
 
+import java.util.Scanner;
+
 public class challenge18    {
     public static void main(String[]args)   {
         //declaring variables
