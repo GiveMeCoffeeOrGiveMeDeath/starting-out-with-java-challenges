@@ -26,12 +26,15 @@ class HelloWorld {
         
         calories30Percent = caloriesFromFat * 0.30;
         
-        if(caloriesFromFat < calories30Percent){
+        if(calories30Percent < calories){
             System.out.println("The dish is low in fat");
         }
+        
+        //System.out.print(caloriesFromFat +"\n");
+        //System.out.print(calories30Percent  +"\n");
 
-      System.out.pintln("The calories from fat: " + caloriesFromFat);
-      System.out.println("The percent of calories from fat: " + percentage);
+        System.out.println("The calories from fat: " + caloriesFromFat + "\n");
+        System.out.println("The percent of calories from fat: " + percentage + "\n");
       
         
     }
