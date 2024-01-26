@@ -32,7 +32,6 @@ class challenge12 {
         }
         
         
-        
-        System.out.println("The time it will take for distance " + distance + " and the time: " + time);
+        System.out.println("The time it will take for distance " + distance + " in " + medium " and the time: " + time);
     }
 }
