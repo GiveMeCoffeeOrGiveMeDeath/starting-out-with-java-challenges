@@ -2,7 +2,7 @@
 Challenge 16
 */
 
-public class challenge16{
+public class Main{
     public static void main(String[]arg){
         int totalSurvey = 12467;
         double oneDrink = 0;
