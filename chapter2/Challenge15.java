@@ -2,7 +2,7 @@
 chapter 2 challenge 15
 */
 
-public class challenge15 {
+public class Challenge15 {
     public static void main(String[] args) {
 
         // declaring variables
