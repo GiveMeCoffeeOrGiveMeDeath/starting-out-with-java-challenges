@@ -2,7 +2,7 @@
 Challenge 16
 */
 
-public class Main{
+public class Mai{
     public static void main(String[]arg){
         int totalSurvey = 12467;
         double oneDrink = 0;
