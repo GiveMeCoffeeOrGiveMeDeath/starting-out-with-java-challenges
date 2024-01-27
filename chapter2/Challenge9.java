@@ -5,7 +5,7 @@ rounding up to second decimal
 */
  import java.util.Scanner;
  
-public class Main{
+public class Challenge9 {
     public static void main(String[] args) {
        
        Scanner keyboard = new Scanner(System.in);
