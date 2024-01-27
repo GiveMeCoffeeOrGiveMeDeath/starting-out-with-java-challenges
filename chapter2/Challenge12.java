@@ -7,7 +7,7 @@ rounding up to second decimal
  import java.util.Scanner;
  
  
-public class Main {
+public class Challenge12 {
     public static void main(String[] args) {
         
        String favoriteCity;
