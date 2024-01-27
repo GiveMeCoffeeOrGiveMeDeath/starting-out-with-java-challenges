@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.Scanner;
 
-class challenge12 {
+public class Challenge12 {
     public static void main(String[] args) {
         
         Scanner keyboard = new Scanner(System.in);
@@ -12,9 +12,6 @@ class challenge12 {
         System.out.println("This will show you the speed of wave sound in air, water and steel:");
         medium = keyboard.nextLine();
         medium = medium.toLowerCase().trim();
-
-        
-        boolean isEqueal;
         
         System.out.println("Enter the distance the wave of sound have to travel: ");
         distance = keyboard.nextInt();
