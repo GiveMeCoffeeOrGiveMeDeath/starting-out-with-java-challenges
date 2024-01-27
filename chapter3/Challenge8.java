@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class challenge8{
+public class hallenge8{
     public static void main(String[]args){
         int packages = 0;
         int discount = 0;
