@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class challenge6 {
+public class Challenge6 {
     public static void main(String[]args)   {
 
         int seconds = 0;
