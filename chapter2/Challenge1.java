@@ -3,7 +3,7 @@
 chapter 2 challenge 1 
 */
 
-public class Mai {
+public class Challenge1 {
     public static void main(String[] args) {
         
         
