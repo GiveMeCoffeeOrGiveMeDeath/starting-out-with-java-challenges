@@ -2,7 +2,7 @@
 Challenge 19
 */
 
-public class Main  {
+public class Challenge19 {
     public static void main(String[]args)   {
 
 
