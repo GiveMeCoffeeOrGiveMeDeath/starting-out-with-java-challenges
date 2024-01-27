@@ -4,8 +4,7 @@ The challenge doesnt require formatting numbers after every third number
 */
  import java.text.DecimalFormat;
  
-public class Main
-{
+public class Challenge5 {
     public static void main(String[] args) {
         
         
