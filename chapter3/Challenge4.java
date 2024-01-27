@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class challenge4 {
+
+public class Challenge4 {
     public static void main(String[] args) {
     
         double test1 = 0;
