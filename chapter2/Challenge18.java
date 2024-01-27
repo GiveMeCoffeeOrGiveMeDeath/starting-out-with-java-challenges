@@ -4,7 +4,7 @@ Chanllenge 18
 
 import java.util.Scanner;
 
-public class Main    {
+public class Challenge18 {
     public static void main(String[]args)   {
         //declaring variables
         String name;
