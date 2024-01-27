@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 
-publi  class challenge1 {
+public  class challenge1 {
     public static void main{String[]args}   {
         int input = 0;
 
