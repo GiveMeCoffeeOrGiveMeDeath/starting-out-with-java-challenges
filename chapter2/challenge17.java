@@ -3,7 +3,7 @@ Challenge 17
 */
 import java.util.Scanner;
 
-public class challenge17    {
+public class Main {
     public static void main(String[]args)   {
         //declaring variables
         double sugar = 1.5 / 48;
