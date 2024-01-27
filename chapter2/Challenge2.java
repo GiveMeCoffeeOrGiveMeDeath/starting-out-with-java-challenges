@@ -2,7 +2,7 @@
 chapter 2 challenge 2
 */
 
-public class Main {
+public class Challenge2 {
     public static void main(String[] args) {
         
         
