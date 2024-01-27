@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class HelloWorld {
+pclass HelloWorld {
     public static void main(String[] args) {
         double caloriesFromFat = 0;
         double calories = 0;
