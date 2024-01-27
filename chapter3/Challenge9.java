@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class challenge9{
+public class Challenge9 {
     public static void main(String[]args){
 
         double pounds = 0;
