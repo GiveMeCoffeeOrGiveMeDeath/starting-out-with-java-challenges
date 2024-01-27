@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class challenge5 {
+public class Challenge5 {
     public static void main{String[]args}   {
         double weight = 0;
         double mass = 0; 
