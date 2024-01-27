@@ -6,8 +6,7 @@ rounding up to second decimal
 */
  import java.text.DecimalFormat;
  
-public class Main
-{
+public class Challenge6 {
     public static void main(String[] args) {
         
         double acres = 43560;
