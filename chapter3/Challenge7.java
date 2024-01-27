@@ -1,9 +1,9 @@
-import java.util.Scanner; 
+import java.util.Scanner;
 
-public class hallenge7{
-    public static void main(String[]args){
+public class Challenge7 {
+    public static void main(String[] args) {
 
-        String name1; 
+        String name1;
         String name2;
         String name3;
 
@@ -18,5 +18,7 @@ public class hallenge7{
         System.out.print(name3 + "\n");
         System.out.print(name2 + "\n");
         System.out.print(name1 + "\n");
+
+        keyboard.close();
     }
 }
