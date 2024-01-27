@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class challenge3 {
+public class Challenge3 {
     public static void main{String[]args}   {
         int bmi = 0;
         int weight = 0;
