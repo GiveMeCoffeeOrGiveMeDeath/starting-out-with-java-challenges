@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class challenge11 {
+class Challenge11 {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         String runner1 = "";
