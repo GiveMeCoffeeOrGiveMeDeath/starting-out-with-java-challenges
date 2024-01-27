@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class challenge2    {
+public class Challenge2 {
     public static void main{String[]args}   {
         int day = 0;
         int month = 0;
