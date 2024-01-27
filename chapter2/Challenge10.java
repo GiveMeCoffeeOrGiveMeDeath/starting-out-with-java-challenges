@@ -7,7 +7,7 @@ rounding up to second decimal
  import java.util.Scanner;
  import java.text.DecimalFormat;
  
-public class Main {
+public class Challenge10 {
     public static void main(String[] args) {
        
        double testOne = 0;
