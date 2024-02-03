@@ -22,7 +22,8 @@ public class Challenge18 {
         System.out.print("Enter your name: ");
         name = keyboard.nextLine();
         System.out.print("Enter your age: ");
-        age = keyboard.nextInt();
+        age = keyboard.nextInt(); 
+        keyboard.nextLine();//consumes the newline character
         System.out.print("Enter your city: ");
         city = keyboard.nextLine();
         System.out.print("Enter your College: ");
@@ -34,7 +35,7 @@ public class Challenge18 {
         System.out.print("Enter the name of your pet: ");
         pet = keyboard.nextLine();
 
-        System.out.print(" There once was a person named" + name + " who lived in " + city + ". At the age of " + age
+        System.out.print(" There once was a person named " + name + " who lived in " + city + ". At the age of " + age
                 + " ,\n" +
                 name + " wen to college at: " + college + ". " + name + " graduated and went to work as a\n" +
                 profession + ". Then, " + name + " adopted a(n) " + animal + " named " + pet + ". They both lived\n" +

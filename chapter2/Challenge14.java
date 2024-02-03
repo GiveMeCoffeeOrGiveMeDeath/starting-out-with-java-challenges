@@ -13,7 +13,6 @@ public class Challenge14 {
         int totalClass = 0;
         double women = 0;
         double men = 0;
-        double percentage;
         double menPercent;
         double womenPercent;
 
@@ -34,7 +33,8 @@ public class Challenge14 {
         womenPercent = women / totalClass;
         womenPercent = womenPercent * 100;
 
-        System.out.print("total amount of people in class " + totalClass +
-                " \nPercentage of men in class: " + menPercent + " \npercentage of women in class: " + womenPercent);
+        System.out.print("total amount of people in class " + df.format(totalClass) +
+                " \nPercentage of men in class: " + df.format(menPercent) + "% \npercentage of women in class: "
+                + df.format(womenPercent) + "%");
     }
 }

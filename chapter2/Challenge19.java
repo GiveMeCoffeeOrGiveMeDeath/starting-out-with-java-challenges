@@ -17,13 +17,14 @@ public class Challenge19 {
 
         double commissionSold = (shares * sharesSold) * commission;
         double soldPaidStocks = shares * sharesSold;
-        double profit = totalPaid - soldPaidStocks - commissionShares - commissionSold;
+        double profit = soldPaidStocks - commissionShares;
+        profit -= commissionSold;
 
-        System.out.print("Amount Joe paid for stocks: " + totalPaid);
+        System.out.println("Amount Joe paid for stocks: " + totalPaid);
         System.out.println("Joe paid as commision on the purchase of the stocks: " + commissionShares);
         System.out.println("Joe sold the stocks for: " + sharesPrice);
-        System.out.println("The total joe sold his stocks for: " + commissionSold);
-        System.out.println("The profit Joe made after saling the stocks: " + profit);
+        System.out.println("The total joe sold his stocks for: " + soldPaidStocks);
+        System.out.println("The profit Joe made after seling the stocks: " + profit);
 
     }
 }

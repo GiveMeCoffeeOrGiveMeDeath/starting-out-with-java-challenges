@@ -20,11 +20,11 @@ public class Challenge15 {
         double total = totalStocks + totalCommission;
 
         // output results
-        System.out.print("Total stocks purchase: " + totalStocks);
+        System.out.println("Total stocks purchase: " + totalStocks);
 
-        System.out.print("The amount of commission: " + totalCommission);
+        System.out.println("The amount of commission: " + totalCommission);
 
-        System.out.print("The total amount for the transaction: " + total);
+        System.out.println("The total amount for the transaction: " + total);
 
     }
 

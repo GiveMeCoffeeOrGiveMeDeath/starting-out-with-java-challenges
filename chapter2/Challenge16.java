@@ -9,14 +9,14 @@ public class Challenge16 {
         double citrusDrink = 0;
 
         // calculating
-        double totalOneDrink = totalSurvey * 0.14;
+        oneDrink = totalSurvey * 0.14;
 
-        double totalCitrusDrink = citrusDrink * 0.64;
+        citrusDrink = totalSurvey * 0.64;
 
         // output calculation
-        System.out.print("The total amount of people that drink one per week: " + totalCitrusDrink);
+        System.out.println("The total amount of people that drink one per week: " + oneDrink);
 
-        System.out.print("The total amount of people that prefer citrus-flavored: " + totalCitrusDrink);
+        System.out.println("The total amount of people that prefer citrus-flavored: " + citrusDrink);
 
     }
 }

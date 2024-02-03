@@ -14,7 +14,7 @@ public class Challenge12 {
        
        Scanner keyboard = new Scanner(System.in);
        
-       System.out.print("Enter your favotite city: ");
+       System.out.print("Enter your favorite city: ");
        favoriteCity = keyboard.nextLine();
        
        System.out.print(favoriteCity.length() + "\n");
@@ -22,7 +22,7 @@ public class Challenge12 {
        System.out.print(favoriteCity.toLowerCase() + "\n");
        System.out.print(favoriteCity.charAt(0));
        
-       //extra getting the lact character on the string
+       //extra getting the last character on the string
        System.out.print(favoriteCity.charAt(favoriteCity.length()-1));
        
     }
