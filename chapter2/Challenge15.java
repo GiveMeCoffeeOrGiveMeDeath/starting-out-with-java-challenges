@@ -17,16 +17,15 @@ public class Challenge15 {
         double totalCommission = totalStocks * commission;
 
         // calculating the total price of the transaction
-        double total = totalStocks + totalCommission; 
+        double total = totalStocks + totalCommission;
 
-        //output results
-        System.out.ptint("Total stocks purchase: " + totalStocks);
+        // output results
+        System.out.print("Total stocks purchase: " + totalStocks);
 
         System.out.print("The amount of commission: " + totalCommission);
 
         System.out.print("The total amount for the transaction: " + total);
-        
 
     }
-    
+
 }

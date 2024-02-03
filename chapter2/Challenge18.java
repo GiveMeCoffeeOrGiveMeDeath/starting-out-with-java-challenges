@@ -5,8 +5,8 @@ Chanllenge 18
 import java.util.Scanner;
 
 public class Challenge18 {
-    public static void main(String[]args)   {
-        //declaring variables
+    public static void main(String[] args) {
+        // declaring variables
         String name;
         int age = 0;
         String city;
@@ -18,26 +18,27 @@ public class Challenge18 {
 
         Scanner keyboard = new Scanner(System.in);
 
-        //output
+        // output
         System.out.print("Enter your name: ");
-        name = keyboard.nextString();
+        name = keyboard.nextLine();
         System.out.print("Enter your age: ");
         age = keyboard.nextInt();
         System.out.print("Enter your city: ");
-        city = keyboard.nextString();
+        city = keyboard.nextLine();
         System.out.print("Enter your College: ");
-        college = keyboard.nextString();
+        college = keyboard.nextLine();
         System.out.print("Enter your profession: ");
-        profession = keyboard.nextString();
+        profession = keyboard.nextLine();
         System.out.print("Enter the type of animal: ");
-        animal = keyboard.nextString();
+        animal = keyboard.nextLine();
         System.out.print("Enter the name of your pet: ");
-        pet = keyboard.nextString(); 
+        pet = keyboard.nextLine();
 
-        System.out.print(" There once was a person named" + name + " who lived in " + city + ". At the age of " + age + " ,\n" +
-        name + " wen to college at: " + college + ". " + name + " graduated and went to work as a\n" +
-        profession + ". Then, " + name + " adopted a(n) " + animal + " named " + pet + ". They both lived\n" + 
-        "happily ever after!");
+        System.out.print(" There once was a person named" + name + " who lived in " + city + ". At the age of " + age
+                + " ,\n" +
+                name + " wen to college at: " + college + ". " + name + " graduated and went to work as a\n" +
+                profession + ". Then, " + name + " adopted a(n) " + animal + " named " + pet + ". They both lived\n" +
+                "happily ever after!");
 
     }
 }
