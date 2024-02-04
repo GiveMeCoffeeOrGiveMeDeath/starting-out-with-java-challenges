@@ -8,7 +8,8 @@ public class Challenge12 {
         int distance = 0;
         double time = 0;
 
-        System.out.println("This will show you the speed of wave sound in air, water and steel:");
+        System.out.println("This will show you the speed of wave sound in air, water or steel:");
+        System.out.println("Enter the medium: ");
         medium = keyboard.nextLine();
         medium = medium.toLowerCase().trim();
 

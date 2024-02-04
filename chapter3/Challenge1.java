@@ -6,9 +6,14 @@ public class Challenge1 {
         int input = 0;
 
         Scanner keyboard = new Scanner(System.in);
+        
+        while(input != -1){
         System.out.println("Enter the number 1-10 to be translated to Roman numbers");
+        System.out.println("Enter -1 to exit");
         input = keyboard.nextInt();
-
+         
+        
+         
         switch (input) {
 
             case 1:
@@ -52,7 +57,10 @@ public class Challenge1 {
                 break;
 
             default:
+                if(input != -1){
                 System.out.println("Invalid input");
+                }  
+        }      
         }
         keyboard.close();
 
