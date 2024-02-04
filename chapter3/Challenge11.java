@@ -16,19 +16,19 @@ class Challenge11 {
         runner1 = keyboard.nextLine();
         System.out.println("Enter the first runner time: ");
         time1 = keyboard.nextInt();
-        keyboard.nextLine();
+        keyboard.nextLine();         // to consume the newline characters after the int input
         
         System.out.println("Enter the first runner name: ");
         runner2 = keyboard.nextLine();
         System.out.println("Enter the first runner time: ");
         time2 = keyboard.nextInt();
-        keyboard.nextLine();
+        keyboard.nextLine();        // to consume the newline characters after the int input
         
         System.out.println("Enter the first runner name: ");
         runner3 = keyboard.nextLine();
         System.out.println("Enter the first runner time: ");
         time3 = keyboard.nextInt();
-        keyboard.nextLine();
+        keyboard.nextLine();       // to consume the newline characters after the int input
         
         if (time1 < time2 && time1 < time3) {
             if (time2 < time3) {
