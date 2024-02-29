@@ -9,7 +9,7 @@ public class numRan {
       int numRandom = rand.nextInt(100) + 1;
       Scanner keyboard = new Scanner(System.in);
 
-      System.out.println(numRandom);
+      // System.out.println(numRandom);
 
       while (numGuess != numRandom) {
 
