@@ -47,5 +47,7 @@ public class Challenge13 {
    
    System.out.println("Your package is : " + package1 + " The total: $" + df.format(total));
    
+   
+   keyboard.close();
    }
 }
