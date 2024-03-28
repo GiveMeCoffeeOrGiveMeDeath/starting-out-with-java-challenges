@@ -5,8 +5,10 @@ public class DoubleArr {
       String[][] cars = new String[3][3];
 
       // second way to declare a 2d array
-      // String[][] cars = {{"Civic", "4Runner", "4Rav"}, {"Skylight GTR", "S2000",
-      // "RX-7"}, {"Camry", "Accord", "WRX"}};
+      // String[][] cars = { {"Civic", "4Runner", "4Rav"},
+      // {"Skylight GTR", "S2000","RX-7"},
+      // {"Camry", "Accord", "WRX"}
+      // };
 
       cars[0][0] = "Civic";
       cars[0][1] = "4Runner";
