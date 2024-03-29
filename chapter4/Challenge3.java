@@ -26,7 +26,7 @@ public class Challenge3 {
 
         for (int i = 1; i <= time; i++) {
             distance = speed * i;
-            System.out.println(i + "\t\t\t" + distance);
+            DistanceTravel.println(i + "\t\t\t" + distance);
         }
     }
 }
