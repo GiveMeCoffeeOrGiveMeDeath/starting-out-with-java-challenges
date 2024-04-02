@@ -9,7 +9,7 @@ public class Challenge5 {
         int count = 0;
 
         System.out.println("Enter a sentence: ");
-        text = keyboard.nextLine();
+        text = keyboard.nextLine().toLowerCase();
         System.out.println("Enter a letter: ");
         letter = keyboard.next().charAt(0);
 
