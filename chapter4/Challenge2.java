@@ -26,6 +26,6 @@ public class Challenge2 {
          distance = speed * i;
          System.out.println(i + "\t\t\t\t\t\t\t" + distance);
       }
-      
+      keyboard.close();
    }
 }
