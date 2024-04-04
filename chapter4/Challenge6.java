@@ -21,7 +21,7 @@ public class Challenge6 {
       fileChar = keyboard.next().toLowerCase().charAt(0);
       
       
-      File file = new File("fileName.txt");
+      File file = new File(fileName);
       
       if(file.exists()){
          //declaring the file reader object
