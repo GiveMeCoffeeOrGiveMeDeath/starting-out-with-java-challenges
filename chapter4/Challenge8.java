@@ -6,7 +6,6 @@ public class Challenge8 {
     public static void main(String[] args) {
 
         int years = 0;
-        // int[] months = new int[12];
         int inches = 0;
         int average = 0;
         int total = 0;
