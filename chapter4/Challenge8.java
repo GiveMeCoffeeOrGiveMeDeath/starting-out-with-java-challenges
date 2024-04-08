@@ -7,8 +7,9 @@ public class Challenge8 {
 
         int years = 0;
         int inches = 0;
-        int average = 0;
+        double average = 0;
         int total = 0;
+        int monthCount = 0;
         Scanner keyboard = new Scanner(System.in);
 
         System.out.println("Enter the number of months: ");
@@ -26,9 +27,13 @@ public class Challenge8 {
                     }
                 } while (inches < 0);
                 total += inches;
+                monthCount++;
             }
+            average = total / 12;
         }
-        average = total / 12;
+        System.out.println("The total months: " + monthCount);
+        System.out.println("The total inches of rainfall: " + total);
+        System.out.println("The average rainfall: " + average);
 
         keyboard.close();
     }
