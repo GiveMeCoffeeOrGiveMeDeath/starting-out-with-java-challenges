@@ -7,9 +7,14 @@ public class Challenge12   {
       
       int store = 0;
       int num = 1;
-      String chart1 = " ";
+      String chart = " ";
       String stars = "*";
       int total = 0;
+      String sales = " "; 
+      String sales1 = " "; 
+      String sales2 = " "; 
+      String sales3 = " "; 
+      String sales4 = " "; 
       
       Scanner keyboard = new Scanner(System.in);
       
@@ -21,16 +26,34 @@ public class Challenge12   {
          store = keyboard.nextInt();
          total = store/100;
          
-        
-         
-         System.out.println("Sales Bar Chart:");
          for(int i = 0; i< total; i++) {
-            chart1 += stars; 
+            chart += stars; 
+            
           }   
-         System.out.println("Store " + num + ":" + chart1);
+          
+          if(j == 1){
+               sales = chart;
+            }else if(j == 2){
+               sales1 = chart;
+            }else if(j == 3){
+               sales2 = chart;
+            }else if(j == 4){
+               sales3 = chart;
+            }else if(j == 5){
+               sales4 = chart;
+            }
+          
+         
          num++;
-         chart1 = " ";
+         chart = " ";
       }
+      
+      System.out.println("Sales Bar Chart:");
+      System.out.println("Store " + num + ":" + sales);
+      System.out.println("Store " + num + ":" + sales1);
+      System.out.println("Store " + num + ":" + sales2);
+      System.out.println("Store " + num + ":" + sales3);
+      System.out.println("Store " + num + ":" + sales4);
       
    }
 }
