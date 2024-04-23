@@ -1,4 +1,4 @@
-/* Chapter 4 Challenge 12
+                                                                                                                                                                                                                                                                                                         /* Chapter 4 Challenge 12
 */
 import java.util.Scanner;
 
