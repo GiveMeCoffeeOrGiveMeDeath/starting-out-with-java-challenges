@@ -21,8 +21,10 @@ public class Challenge2 {
    
       System.out.println("Hours         Distance Traveled ");
       System.out.println("---------------------------------");
-   
+      speed = speed / time;
+      
       for(int i = 1 ; i <= time; i++) {
+         
          distance = speed * i;
          System.out.println(i + "\t\t\t\t\t\t\t" + distance);
       }

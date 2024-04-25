@@ -18,11 +18,20 @@ public class Challenge15 {
 
       File file = new File(file1);
       Scanner inputFile = new Scanner(file1);
-
+      
+      
       PrintWriter outputFile = new PrintWriter(file2);
 
-      if (file1.exists()) {
-         System.out.println("Copying from file 1: ");
+      if (file.exists()) {
+         System.out.println("Copying from " + file1 + " file: ");
+         
+            System.out.println("To " + file2 + " : ");
+            
+            while(inputFile.hasNext()){
+               String line = inputFile.nextLine().toUpperCase();
+               outputFile.println(line);
+            }
+         
       } else {
          System.out.println("The file " + file1 + " is not found.");
 

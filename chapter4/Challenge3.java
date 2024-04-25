@@ -6,7 +6,7 @@ import java.util.Scanner;
 import java.io.*;
 
 public class Challenge3 {
-    public static void main(String[] args)throws IOException{
+    public static void main(String[] args) throws IOException{
 
         int distance = 0;
         int speed = 0;
@@ -23,7 +23,9 @@ public class Challenge3 {
 
         System.out.println("Hours         Distance Traveled ");
         System.out.println("---------------------------------");
-
+        speed = speed / time;
+        
+        
         for (int i = 1; i <= time; i++) {
             distance = speed * i;
             DistanceTravel.println(i + "\t\t\t" + distance);
