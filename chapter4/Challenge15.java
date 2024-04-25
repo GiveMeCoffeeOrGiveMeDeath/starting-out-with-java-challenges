@@ -17,7 +17,7 @@ public class Challenge15 {
       file2 = keyboard.nextLine();
 
       File file = new File(file1);
-      Scanner inputFile = new Scanner(file1);
+      Scanner inputFile = new Scanner(file);
       
       
       PrintWriter outputFile = new PrintWriter(file2);
@@ -30,6 +30,7 @@ public class Challenge15 {
             while(inputFile.hasNext()){
                String line = inputFile.nextLine().toUpperCase();
                outputFile.println(line);
+               System.out.println(line);
             }
          
       } else {
