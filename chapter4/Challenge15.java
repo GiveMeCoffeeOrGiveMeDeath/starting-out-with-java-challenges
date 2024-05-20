@@ -10,7 +10,8 @@ public class Challenge15 {
       String file2 = " ";
 
       Scanner keyboard = new Scanner(System.in);
-
+      
+      //files used was lowercaps.txt and second copy.txt
       System.out.println("Enter the name of the first file: ");
       file1 = keyboard.nextLine();
       System.out.println("Enter the name of the second file: ");
