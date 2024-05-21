@@ -25,7 +25,7 @@ public class Challenge19   {
          userColor = keyboard.nextLine();
          
          if(userColor == colors[numRand]){
-         
+            ++total;
          }   
       }
    
