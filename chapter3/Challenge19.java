@@ -11,23 +11,33 @@ public class Challenge19   {
       String machineColor = " ";
       String userColor = " ";
       int total = 0;
+      String[] colors = {"Red", "Green", "Blue", "Orange", "Yellow"};
       
       Random rand = new Random();
       int numRand = rand.nextInt(5);
+      machineColor = colors[numRand];
       
-      String[] colors = {"Red", "Green", "Blue", "Orange", "Yellow"};
+      //System.out.println(machineColor);
+      
       
       System.out.println("ESP (extrasensory perception) program: ");
-      Syestem.out.println("Enter one of the option: Red, Green, Blue, Orange, Yellow \nto try guess the one already pick");
+      System.out.println("Enter one of the option: Red, Green, Blue, Orange, Yellow \nto try guess the one already pick");
       
       for(int i = 0; i < 10; i++){
          
          userColor = keyboard.nextLine();
+         userColor = userColor.substring(0, 1).toUpperCase() + userColor.substring(1).toLowerCase();
+         ++total;
          
-         if(userColor == colors[numRand]){
-            ++total;
-         }   
+         if(userColor.equals(machineColor)){
+           System.out.println("You have a strong ESP with: " + total + " Tries guessing color "+ userColor);
+           break;
+         }else{
+            System.out.println("Try again:");
+         }
       }
+      
+      System.out.println("You still need to train your ESP.");
    
    }  
 }
