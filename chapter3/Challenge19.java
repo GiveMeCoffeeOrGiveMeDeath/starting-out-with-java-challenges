@@ -38,6 +38,7 @@ public class Challenge19   {
       }
       
       System.out.println("You still need to train your ESP.");
-   
+      
+      keyboard.close();
    }  
 }
