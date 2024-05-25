@@ -40,7 +40,7 @@ public class Challenge16 {
          points = 60;
       }
 
-      System.out.println("Your points this from last month: " + points);
+      System.out.println("Your points this from last month: " + df.format(points));
 
       keyboard.close();
    }
