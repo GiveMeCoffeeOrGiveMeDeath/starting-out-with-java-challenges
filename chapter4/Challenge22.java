@@ -17,7 +17,7 @@ public class Challenge22   {
       String[] machineOptions = {"Cherries", "Oranges", "Plums", "Bells", "Melons", "Bars"};
       String[] randomItems = new String[3];
 
-      while(again != 'n'){
+      while(again != 'n' || again != 'N'){
 
       System.out.println("If you want to play press enter y to play again and n to end:");
       again = keyboard.next().charAt(0);
