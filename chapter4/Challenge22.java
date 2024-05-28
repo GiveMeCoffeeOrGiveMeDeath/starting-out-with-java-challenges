@@ -5,11 +5,13 @@ import java.util.Random;
 
 public class Challenge22   {
    public static void main(String[]args)  {
+   
       int userMoney = 0;
       int number = 0;
-      char again = '';
+      String input;
+      char again = 'y';
       int[] randomNums;
-      String[] randomItems; 
+      String[] randomItems = new String[3]; 
       Random rand = new Random();
       
       Scanner keyboard = new Scanner(System.in);
@@ -19,21 +21,38 @@ public class Challenge22   {
       
       do{
       
+      System.out.println("Do you want to play (Enter in lowercase): y/n");
+      input = keyboard.nextLine().trim();
+      
+      if (!input.isEmpty()) {
+                again = input.charAt(0);  // Get the first character
+            } else {
+                System.out.println("Input cannot be empty. Please enter a character.");
+                continue;  // Ask the question again
+            }
+
+            if (again == 'n') {
+                break;  // Exit the loop if the user doesn't want to play
+            }
+      
+      
       System.out.println("Enter the amount you want to bet: ");
-      userMoney = keyboard.nextInt();
+       while (!keyboard.hasNextInt()) {
+                System.out.println("That's not a valid integer. Try again.");
+                keyboard.next();  // Consume the invalid input
+            }
+            userMoney = keyboard.nextInt();
+            keyboard.nextLine();
       
       for(int i = 0; i< 3; i++){
          number = rand.nextInt(6);  // random number
-         //randomNums[i] = number;    // storing the random number in one of the 3 spaces for the slot
-         randomItems[i] = randomNums[number]; //storing the item for the slot
-         
       }
       
-      if(randomItems[0] == randomItem[1] || randomItem[0] == randomItem[2]){
+      if(randomItems[0] == randomItems[1] || randomItems[0] == randomItems[2]){
          userMoney = userMoney * 2;
          System.out.println("Two items are the same you get double: " + userMoney);
          
-      }else if(randomItems[0] == randomItem[1] && randomItem[0] == randomItem[2]){
+      }else if(randomItems[0] == randomItems[1] && randomItems[0] == randomItems[2]){
          userMoney = userMoney * 3;
          System.out.println("Three items are the same you get triple: " + userMoney);
       
@@ -42,7 +61,7 @@ public class Challenge22   {
          userMoney = 0;
       }
          
-      }while(again != 'n' || userMoney < 1);
+      }while(again != 'n' || userMoney < 0);
       
       keyboard.close();
    }
