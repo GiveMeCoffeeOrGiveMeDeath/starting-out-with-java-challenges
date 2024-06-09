@@ -1,5 +1,14 @@
 public class Solution {
-    public boolean isPalindrome(int x) {
+
+    public static void main(String[] args) {
+
+        
+        int num = 121;
+        System.out.println(isPalindrome(num));
+
+    }
+
+    public static boolean isPalindrome(int x) {
         int[] digits = new int[String.valueOf(x).length()];
 
         if (x < 0) {
@@ -16,11 +25,4 @@ public class Solution {
         }
         return reverse == x;
     }
-
-    public static void main(String[] args) {
-
-        isPalindrome(121);
-
-    }
-
 }
