@@ -13,7 +13,7 @@ public class Challenge2 {
 
       System.out.println("Enter the wholesale price of the product: ");
       wholeSale = keyboard.nextDouble();
-      System.out.println("Enter the percentage ");
+      System.out.println("Enter the percentage: ");
       percent = keyboard.nextInt();
 
       System.out.println();
@@ -25,7 +25,7 @@ public class Challenge2 {
 
    public static double calculateRetail(double wholeSale, int percent) {
 
-      double retailPrice = wholeSale * (wholeSale / 100) + wholeSale;
+      double retailPrice = percent * (wholeSale / 100) + wholeSale;
       return retailPrice;
    }
 }
