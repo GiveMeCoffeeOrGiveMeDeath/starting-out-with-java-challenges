@@ -18,7 +18,7 @@ public class Challenge2 {
 
       System.out.println();
       total = calculateRetail(wholeSale, percent);
-      System.out.println("Retail price: $" + total);
+      System.out.print("Retail price: $" + total);
 
       keyboard.close();
    }
